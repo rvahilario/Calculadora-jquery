@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>Calculadora HTML</title>
+	
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+
+  	<script type="text/javascript" src="script.js"></script>
+</head>
+
+<body>
+	<div class="container">
+
+		<header class="top">
+			<form class="form" method="">
+				<label id="opera"></label>
+				<input type="text" id="resultado" value="" class="visor">
+			</form>
+		</header>
+
+		<section class="corpo">
+			<table>
+				<tr>
+					<td><input type="button" value="7" name="botao" class="botao"></td>
+					<td><input type="button" value="8" name="botao" class="botao"></td>
+					<td><input type="button" value="9" name="botao" class="botao"></td>
+					<td><input type="button" value="/" name="div" class="botao"></td>
+					<td><input type="button" value="&larr;" name="apaga" class="botao"></td>
+				</tr>
+
+				<tr>
+					<td><input type="button" value="4" name="botao" class="botao"></td>
+					<td><input type="button" value="5" name="botao" class="botao"></td>
+					<td><input type="button" value="6" name="botao" class="botao"></td>
+					<td><input type="button" value="*" name="mult" class="botao"></td>
+					<td><input type="button" value="C" name="c" class="botao"></td>
+				</tr>
+
+				<tr>
+					<td><input type="button" value="1" name="botao" class="botao"></td>
+					<td><input type="button" value="2" name="botao" class="botao"></td>
+					<td><input type="button" value="3" name="botao" class="botao"></td>
+					<td><input type="button" value="-" name="sub" class="botao"></td>
+					<td rowspan="2"><input type="button" value="=" name="igual" class="botao igual"></td>
+				</tr>
+
+				<tr>
+					<td colspan="2"><input type="button" value="0" name="botao" class="botao zero"></td>
+					<td><input type="button" value="." name="botao" class="botao"></td>
+					<td><input type="button" value="+" name="soma" class="botao"></td>
+					
+				</tr>
+
+			</table>
+
+		</section>
+	</div>
+
+</body>
+
+</html>
